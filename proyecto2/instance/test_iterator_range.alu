@@ -1,5 +1,0 @@
-function testIterRange() do
-  iter = iterator (a, b) yielding (c)
-  r = from 1 to 5
-  from true to false
-end testIterRange
