@@ -1,5 +1,16 @@
 module Syntax
 
+// Tipos
+
+syntax Type
+  = intType: "int"
+  | boolType: "bool"  
+  | charType: "char"
+  | stringType: "string"
+  | floatType: "float"
+  | customType: Id typeName
+  ;
+
 // Programa y módulos
 start syntax Program = program: Module+ modules ; 
 
